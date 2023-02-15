@@ -18,7 +18,7 @@ class UI {
                     <br>
                     <ul class="list-group mt-3">
                         <li class="list-group-item">Company : ${data.company}</li>
-                        <li class="list-group-item">Website/Blog : <a style="text-decoration: none; href="${data.blog}">${data.blog}</a></li>
+                        <li class="list-group-item">Website/Blog : <a style="text-decoration: none; href="#">${data.blog}</a></li>
                         <li class="list-group-item">Location : ${data.location}</li>
                         <li class="list-group-item">Member Since : ${data.created_at}</li>
                     </ul>
